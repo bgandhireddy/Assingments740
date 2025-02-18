@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+.cs_department_info h4{
+    margin:16px 0px;
+}
+
+.cspage_header {
+    background-color: #006633;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cspage_header h4 {
+    color: #FFCC33;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    margin: 0px;
+}
+
+.cs_department_info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    max-width: 50% !important;
+}
+.cspage_survey_from {
+    background-color: #FFCC33;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+
+}
+
+.cspage_survey_from a {
+    color: #006633;
+    text-decoration: none;
+    font-weight: 400;
+}
+footer p{
+    margin: 96px;
+}
+
+/* Tabel And Mobile media query */
+
+@media screen and (max-width:1024px) {
+    table {
+        max-width: 100% !important;
+    }
+    
+}
